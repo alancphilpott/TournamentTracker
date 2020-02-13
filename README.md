@@ -69,3 +69,7 @@ MatchupEntry
 	• TeamCompeting (Team)
 	• Score (double)
   	• ParentMatchup (Matchup)
+
+# Application Icon
+
+	Created using Sycnfusions Metro Studio 5
