@@ -31,6 +31,7 @@ Key Concepts:
 # Data Design
 ## Mapping The Data
 Team
+	
 	• TeamMembers (List<Person>)
 	• TeamName (string)
 
