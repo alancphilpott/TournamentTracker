@@ -20,13 +20,13 @@ Data: SQL and/or Text File
 Users: One at a time, on one application.
 
 Key Concepts:
-	• Emailing from C#
-	• SQL
-	• Custom Events (Checking Tournament Status, Triggering Emails)
-	• Error Handling (User Input)
-	• Interfaces (Data Passing, Form to Form)
-	• Random Ordering (Games, Byes, etc.)
-  • Text Notifications (Additional Feature)
+• Emailing from C#
+• SQL
+• Custom Events (Checking Tournament Status, Triggering Emails)
+• Error Handling (User Input)
+• Interfaces (Data Passing, Form to Form)
+• Random Ordering (Games, Byes, etc.)
+ • Text Notifications (Additional Feature)
   
 # Data Design
 ## Mapping The Data
@@ -36,12 +36,14 @@ Team
 	• TeamName (string)
 
 Person
+
 	• FirstName (string)
 	• LastName (string)
 	• EmailAddress (string)
 	• CellNumber (string)
 
 Tournament
+
 	• TournamentName (string)
 	• EntryFee (decimal)
 	• EnteredTeams (List<Team>)
@@ -49,17 +51,20 @@ Tournament
 	• Rounds (List<List<Matchup>>)
 
 Prize
+
 	• PlaceNumber (int)
 	• PlaceName (string)
 	• PrizeAmount (decimal)
 	• PrizePercentage (double)
 
 Matchup
+
 	• Entries (List<MatchupEntry>)
 	• Winner (Team)
 	• MatchupRound (int)
 
 MatchupEntry
+
 	• TeamCompeting (Team)
 	• Score (double)
-  • ParentMatchup (Matchup)
+  	• ParentMatchup (Matchup)
