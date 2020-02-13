@@ -15,18 +15,19 @@ Your friends come to you and ask you to create a tournament tracker. They are al
 	6. The last player standing is the winner.
 
 ## Big Picture Design
-Structure: Windows Forms Application and Class Library
-Data: SQL and/or Text File
-Users: One at a time, on one application.
+	Structure: Windows Forms Application and Class Library
+	Data: SQL and/or Text File
+	Users: One at a time, on one application.
 
 Key Concepts:
-• Emailing from C#
-• SQL
-• Custom Events (Checking Tournament Status, Triggering Emails)
-• Error Handling (User Input)
-• Interfaces (Data Passing, Form to Form)
-• Random Ordering (Games, Byes, etc.)
- • Text Notifications (Additional Feature)
+
+	• Emailing from C#
+	• SQL
+	• Custom Events (Checking Tournament Status, Triggering Emails)
+	• Error Handling (User Input)
+	• Interfaces (Data Passing, Form to Form)
+	• Random Ordering (Games, Byes, etc.)
+	• Text Notifications (Additional Feature)
   
 # Data Design
 ## Mapping The Data
