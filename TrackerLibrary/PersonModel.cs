@@ -24,6 +24,6 @@ namespace TrackerLibrary
         /// <summary>
         /// Represents the mobile phone number of the person.
         /// </summary>
-        public string CellNumber { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }
